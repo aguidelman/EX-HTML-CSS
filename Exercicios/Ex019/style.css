@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*
+   em HTML é id    = em CSS é # (case sensitive)
+   
+   o id só pode ser usado uma vez no HTML, sem repetir para outros elementos, quando é necessário usar a mesma formatação em vários elementos, usa-se a classe.
+   
+   em HTML é class = em CSS é .
+   
+   é possivel ter uma id e uma class no mesmo elemento, porém a formatação do id está acima da class na hierarquia
+ */
+
+body {
+    background-color: #8DD9C3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #35524A;
+}
+
+#principal {
+    text-align: center;
+    background-color: #35524A;
+    color: white;
+}
+
+h2 {
+    color: #63998A;
+    text-shadow: 1px 1px 0px #A4FCEC;
+}
+
+.basico {
+    color: #A35A5E;
+}
+
+.intermediario {
+    color: #925053;
+}
+
+.avancado {
+    color: #6d362e;
+}
